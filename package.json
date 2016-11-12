@@ -1,0 +1,52 @@
+{
+  "name": "pimatic-knmi-weather",
+  "description": "Pimatic plugin for KNMI weather data",
+  "author": {
+    "name": "Marcus Wittig",
+    "url": "https://github.com/mwittig"
+  },
+  "main": "knmi-weather",
+  "files": [
+    "knmi-weather.coffee",
+    "knmi-weather-config-schema.coffee",
+    "device-config-schema.coffee",
+    "LICENSE",
+    "HISTORY.md",
+    "README.md"
+  ],
+  "keywords": [
+    "Netherlands Weather",
+    "KNMI",
+    "Pimatic"
+  ],
+  "version": "0.0.0",
+  "homepage": "https://github.com/mwittig/pimatic-knmi-weather/tree/master",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mwittig/pimatic-knmi-weather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mwittig/pimatic-knmi-weather/issues"
+  },
+  "license": "AGPL-3.0",
+  "maintainers": [
+    {
+      "name": "mwittig",
+      "url": "https://github.com/mwittig"
+    }
+  ],
+  "configSchema": "knmi-weather-config-schema.coffee",
+  "dependencies": {
+    "jsftp": "^1.5.5",
+    "pimatic-plugin-commons": "^0.9.3"
+  },
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "pimatic": ">=0.9.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">= 4",
+    "npm": ">= 2"
+  }
+}
