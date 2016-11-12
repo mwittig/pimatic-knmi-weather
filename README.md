@@ -74,7 +74,8 @@ The device has the following configuration properties:
 | station           | -        | String  | The name of the weather station             |
 | attributes        | "temperature" | Enum | The attribute to be exhibited by the device |
 
-Since pimatic 0.9 device can be easily created and edited using the device editor as shown in the following example.
+Since pimatic version 0.9, devices can be easily created and edited using the device editor as shown 
+in the following example.
 
 ![Screenshot](https://raw.githubusercontent.com/mwittig/pimatic-knmi-weather/master/assets/screenshots/edit-knmi-weather.png)
 
