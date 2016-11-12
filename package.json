@@ -20,7 +20,7 @@
     "KNMI",
     "Pimatic"
   ],
-  "version": "0.9.0",
+  "version": "0.9.1",
   "homepage": "https://github.com/mwittig/pimatic-knmi-weather/tree/master",
   "private": false,
   "repository": {
