@@ -65,13 +65,14 @@ module.exports = (env) ->
           )
 
     requestUpdate: () ->
+      @base.debug "#{@listenerCount 'weatherUpdate'} event listeners"
       if @__timeoutObject? and @lastWeatherData?
         @emit 'weatherUpdate', @lastWeatherData
       else
         @base.cancelUpdate()
         @base.debug "Requesting weather data update"
-        @getData().then (data) =>
-          @emit 'weatherUpdate', data
+        @getData().then (@lastWeatherData) =>
+          @emit 'weatherUpdate', @lastWeatherData
         .catch (error) =>
           @base.error "Error:", error
         .finally () =>
@@ -171,7 +172,7 @@ module.exports = (env) ->
 
     createWeatherUpdateHandler: () ->
       return (weatherData) =>
-        @base.debug JSON.stringify weatherData.stations
+        # @base.debug JSON.stringify weatherData.stations
         stationData = (i for i in weatherData.stations when i.station is @config.station)[0]
         if stationData? and not _.isEmpty @config.attributes
           if @attributeHash.clouds? and _.isEmpty stationData.overcast?
