@@ -52,8 +52,8 @@ The KNMI Weather device is provided to obtain weather data for a single location
             "temperature",
             "clouds",
             "windDirection",
+            "windSpeed",
             "pressure",
-            "windStrength",
             "clouds",
             "windChill",
             "visibility"
