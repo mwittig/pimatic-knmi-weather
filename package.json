@@ -7,6 +7,7 @@
   },
   "main": "knmi-weather",
   "files": [
+    "assets",
     "knmi-weather.coffee",
     "knmi-weather-config-schema.coffee",
     "device-config-schema.coffee",
