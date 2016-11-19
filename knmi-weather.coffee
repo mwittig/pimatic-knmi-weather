@@ -1,4 +1,4 @@
-# Yamaha AVR plugin
+# KNMI Weather plugin
 module.exports = (env) ->
 
   events = require 'events'
