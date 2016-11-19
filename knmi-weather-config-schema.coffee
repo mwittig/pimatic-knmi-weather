@@ -1,4 +1,4 @@
-# #pimatic-metar-weather plugin config options
+# #pimatic-knmi-weather plugin config options
 module.exports = {
   title: "pimatic-knmi-weather plugin config options"
   type: "object"
