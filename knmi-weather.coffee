@@ -45,6 +45,9 @@ module.exports = (env) ->
         ftp.once 'timeout', () =>
           finalize new Error "No response from server (connection timeout)"
 
+        ftp.once 'error', (err) =>
+          finalize err
+
         ftp.once 'connect', () =>
           result = ''
           ftp.get('/pub_weerberichten/tabel_10Min_data.json', (error, socket) =>
