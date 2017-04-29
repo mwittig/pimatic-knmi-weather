@@ -1,5 +1,7 @@
 # pimatic-knmi-weather
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwittig/pimatic-knmi-weather.svg)](https://greenkeeper.io/)
+
 [![Npm Version](https://badge.fury.io/js/pimatic-knmi-weather.svg)](http://badge.fury.io/js/pimatic-knmi-weather)
 [![Build Status](https://travis-ci.org/mwittig/pimatic-knmi-weather.svg?branch=master)](https://travis-ci.org/mwittig/pimatic-knmi-weather)
 [![Dependency Status](https://david-dm.org/mwittig/pimatic-knmi-weather.svg)](https://david-dm.org/mwittig/pimatic-knmi-weather)
