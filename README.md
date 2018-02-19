@@ -80,3 +80,8 @@ in the following example.
 ![Screenshot](https://raw.githubusercontent.com/mwittig/pimatic-knmi-weather/master/assets/screenshots/edit-knmi-weather.png)
 
 
+## License 
+
+Copyright (c) 2015-2018, Marcus Wittig and contributors. All rights reserved.
+
+[AGPL-3.0](https://github.com/mwittig/pimatic-knmi-weather/blob/master/LICENSE)
