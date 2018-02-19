@@ -40,7 +40,7 @@
   "configSchema": "knmi-weather-config-schema.coffee",
   "dependencies": {
     "jsftp": "git+https://github.com/mwittig/jsftp.git",
-    "pimatic-plugin-commons": "^0.9.3"
+    "pimatic-plugin-commons": "^0.9.6"
   },
   "optionalDependencies": {},
   "peerDependencies": {
