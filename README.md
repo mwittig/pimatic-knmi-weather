@@ -8,7 +8,7 @@ Pimatic plugin for KNMI weather data.
 
 ## Introduction
 
-This plugin provides basic weather data from the Royal Netherlands Meteorological Institute for 35 stations 
+This plugin provides basic weather data from the Royal Netherlands Meteorological Institute for 37 stations 
 throughout the country. The following data is provided whereas some stations may provide a limited data set:
 
 * air temperature at ground-level
@@ -64,8 +64,8 @@ The KNMI Weather device is provided to obtain weather data for a single location
 The location is defined by setting the station name which may be one of the following: Arcen, Berkhout, 
 Cabauw, De Bilt, Deelen, Den Helder, Eelde, Eindhoven, Ell, Gilze Rijen, Heino, Herwijnen, Hoek van Holland, 
 Hoogeveen, Houtribdijk, Hupsel, IJmuiden, Lauwersoog, Leeuwarden, Lelystad, Maastricht-Aachen Airport, 
-Marknesse, Nieuw Beerta, Rotterdam, Schiphol, Stavoren, Terschelling, Twente, Vlieland, Vlissingen, 
-Volkel, Voorschoten, Westdorpe, Wijk aan Zee, Woensdrecht.
+Marknesse, Nieuw Beerta, Rotterdam, Schiphol, Stavoren, Terschelling, Texelhors, Twente, Vlieland, Vlissingen, 
+Volkel, Voorschoten, Westdorpe, Wijk aan Zee, Wilhelminadorp, Woensdrecht.
 
 The device has the following configuration properties:
 

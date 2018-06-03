@@ -14,8 +14,9 @@ module.exports = {
           "Heino", "Herwijnen", "Hoek van Holland", "Hoogeveen", "Houtribdijk",
           "Hupsel", "IJmuiden", "Lauwersoog", "Leeuwarden", "Lelystad",
           "Maastricht-Aachen Airport", "Marknesse", "Nieuw Beerta", "Rotterdam", "Schiphol",
-          "Stavoren", "Terschelling", "Twente", "Vlieland", "Vlissingen",
-          "Volkel", "Voorschoten", "Westdorpe", "Wijk aan Zee", "Woensdrecht"
+          "Stavoren", "Terschelling", "Texelhors", "Twente", "Vlieland",
+          "Vlissingen", "Volkel", "Voorschoten", "Westdorpe", "Wijk aan Zee",
+          "Wilhelminadorp", "Woensdrecht"
         ]
       attributes:
         type: "array"
