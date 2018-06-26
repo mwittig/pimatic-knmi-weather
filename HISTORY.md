@@ -1,7 +1,8 @@
 # Release History
 
-* unreleased
+* 20180626, V0.9.4
     * Updated list of weather stations to include Texelhors and Wilhelminadorp
+    
 * 20180220, V0.9.3
     * Updated dependencies
     * Revised README, added license notice
