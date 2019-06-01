@@ -61,11 +61,16 @@ The KNMI Weather device is provided to obtain weather data for a single location
           "station": "Heino"
     }
 
-The location is defined by setting the station name which may be one of the following: Arcen, Berkhout, 
-Cabauw, De Bilt, Deelen, Den Helder, Eelde, Eindhoven, Ell, Gilze Rijen, Heino, Herwijnen, Hoek van Holland, 
-Hoogeveen, Houtribdijk, Hupsel, IJmuiden, Lauwersoog, Leeuwarden, Lelystad, Maastricht-Aachen Airport, 
-Marknesse, Nieuw Beerta, Rotterdam, Schiphol, Stavoren, Terschelling, Texelhors, Twente, Vlieland, Vlissingen, 
-Volkel, Voorschoten, Westdorpe, Wijk aan Zee, Wilhelminadorp, Woensdrecht.
+The location is defined by setting the station name which may be one of the following: 
+
+Arcen, Berkhout, Cabauw, De Bilt, Deelen,
+Den Helder, Eelde, Eindhoven, Ell, Gilze Rijen,
+Heino, Herwijnen, Hoek van Holland, Hoogeveen, Houtribdijk,
+Hupsel, IJmuiden, Lauwersoog, Leeuwarden, Lelystad,
+Maastricht-Aachen Airport, Marknesse, Nieuw Beerta, Rotterdam, Schiphol,
+Stavoren, Terschelling, Texelhors, Twente, Vlieland,
+Vlissingen, Volkel, Voorschoten, Westdorpe, Wijk aan Zee,
+Wilhelminadorp, Woensdrecht.
 
 The device has the following configuration properties:
 
@@ -82,6 +87,6 @@ in the following example.
 
 ## License 
 
-Copyright (c) 2015-2018, Marcus Wittig and contributors. All rights reserved.
+Copyright (c) 2015-2019, Marcus Wittig and contributors. All rights reserved.
 
 [AGPL-3.0](https://github.com/mwittig/pimatic-knmi-weather/blob/master/LICENSE)
