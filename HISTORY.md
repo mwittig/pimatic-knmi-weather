@@ -1,5 +1,11 @@
 # Release History
 
+* 20190601, V0.9.5
+    * Updated dependencies
+    * Revised README
+    * Added helper to obtain list of stations
+    * Added travis builds for node v8 and v10
+
 * 20180626, V0.9.4
     * Updated list of weather stations to include Texelhors and Wilhelminadorp
     
